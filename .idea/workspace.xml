@@ -127,11 +127,19 @@
       <option name="project" value="LOCAL" />
       <updated>1678296986956</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="изменила меню">
+      <created>1679313509507</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679313509507</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="заготовка меню" />
-    <option name="LAST_COMMIT_MESSAGE" value="заготовка меню" />
+    <MESSAGE value="изменила меню" />
+    <option name="LAST_COMMIT_MESSAGE" value="изменила меню" />
   </component>
 </project>
