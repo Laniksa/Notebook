@@ -1,7 +1,11 @@
 package com.company;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Task {
    private String name;
+   private int count;
 
    public Task(String name){
        this.name = name;
@@ -11,10 +15,12 @@ public class Task {
         return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     @Override
     public String toString() {
-        return "Task{" +
-                "name='" + name + '\'' +
-                '}';
+        return  name + '\'';
     }
 }
