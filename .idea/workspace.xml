@@ -142,13 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679316531621</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Корректный ввод задач">
+      <created>1679392853524</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679392853524</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="заготовка меню" />
     <MESSAGE value="изменила меню" />
     <MESSAGE value="сделать отдельный метод по добавлению в лист" />
-    <option name="LAST_COMMIT_MESSAGE" value="сделать отдельный метод по добавлению в лист" />
+    <MESSAGE value="Корректный ввод задач" />
+    <option name="LAST_COMMIT_MESSAGE" value="Корректный ввод задач" />
   </component>
 </project>

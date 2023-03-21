@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    //public static Scanner scan = new Scanner(System.in);
     public static List<Task> task = new ArrayList<>();
 
         public static boolean menu() {
@@ -23,26 +22,25 @@ public class Main {
                     scan.nextLine();
                     System.out.println("Введите задачу: ");
                     String taskText = scan.nextLine();
-                   // System.out.println(taskText);
                     task.add(new Task(taskText));
 
                     break;
                 case 2:
-                    System.out.println(task.toString());
+                    tasks();
                     break;
                 case 3:
                     System.out.println("Введите номер задачи для удаления \n");
-                    System.out.println(task.toString());
+                    tasks();
                     int numTask = scan.nextInt();
                     task.remove(numTask - 1);
                     System.out.println("Оставшиеся задачи: \n");
-                    System.out.println(task.toString());
+                    tasks();
                     break;
                 case 0:
                     System.out.println("Программа завершена");
                     return false;
                 default:
-                    System.out.println("Вы ввелм неверное значение");
+                    System.out.println("Вы ввели неверное значение");
                     break;
             }
 
@@ -50,11 +48,12 @@ public class Main {
 
 
     }
-//    public static Task addTask(String str){
-//            task.add(str);
-//
-//
-//    }
+    public static void tasks(){
+        for(int i=0; i<task.size(); i++){
+            System.out.println(i+1 + ". " + task.get(i).toString());
+        }
+
+    }
 
     public static void main(String[] args) {
     menu();
